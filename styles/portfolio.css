@@ -12,9 +12,18 @@
   font-size: 20px;
   border: 0;
   padding: 18px 35px;
-  height: 64px;
   border-radius: 5px;
   background-color: #fd6e0a;
+}
+.btn-outline {
+  color: #fd6e0a;
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  padding: 18px 35px;
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  background-color: #fd6f0a00;
 }
 
 /* header & navigation style  */
@@ -154,18 +163,18 @@ section {
   margin-top: 50px;
   text-align: center;
 }
-/* contract style  */
-.contract {
+/* contact style  */
+.contact {
   display: flex;
   gap: 100px;
   background: #fff8f3;
   padding: 130px 200px;
 }
-.contract .section-title {
+.contact .section-title {
   text-align: left;
 }
 
-.contract input[type="text"],
+.contact input[type="text"],
 input[type="email"],
 textarea {
   margin-bottom: 24px;
@@ -179,6 +188,6 @@ input {
   height: 64px;
 }
 
-.contract a {
+.contact a {
   text-decoration: none;
 }
